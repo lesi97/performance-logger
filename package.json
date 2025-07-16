@@ -1,0 +1,26 @@
+{
+    "name": "@c_lesi/performance-logger",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "types": "dist/index.d.ts",
+    "keywords": [],
+    "author": "c_lesi",
+    "license": "ISC",
+    "type": "module",
+    "description": "",
+    "dependencies": {
+        "@c_lesi/logger": "^1.1.1"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "devDependencies": {
+        "typescript": "^5.8.3"
+    }
+}
